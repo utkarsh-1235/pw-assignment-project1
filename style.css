@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ margin: 0 auto;
+ position: relative;
+ top: 0;
+}
+.nav::before{
+    content: "";
+    background-color: black;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.4;
+}
+.nav li a:hover{
+    color: white;
+    background-color: rgb(188, 39, 82);
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.nav ul a{
+    text-decoration: none;
+    color: goldenrod;
+    display: block;
+    padding:3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 15px 10px;
+    z-index: -1;
+}
+.container{
+    margin: 10px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.btn{
+    background-color: rgb(188, 39, 82);
+    color: white;
+    border-radius: 4px;
+    padding: 6px 20px;  
+    border: none;
+    margin: 17px;
+    font: 1.5rem;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.mid{
+    text-align: center;
+    margin: 20px 50px;
+    padding: 20px;
+    display:block;
+}
+
+.mid h1{
+    margin: 20px 300px; 
+    font-size: 3rem;
+    color: goldenrod;
+    font-weight: bold;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/1178610/pexels-photo-1178610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
